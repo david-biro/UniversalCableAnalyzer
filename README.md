@@ -1,6 +1,9 @@
 # Cable connection tester software
-A software application that checks the continuity and the order of the wires within a cable to ensure there are no breaks and that the wires are correctly seated. It receives measurement results from the hardware [here](https://github.com/Tamas-Biro1/UniversalCableTesterBoard) via a serial interface and then compares these results with an XML schema file for the specific cable. If an exact match is found, the cable is considered OK. If there is a faulty connection, the software indicates which pin has no connection to the other connector but should, or if there is a connection where there shouldn't be.
+A software application that checks the continuity and the order of the wires within a cable to ensure there are no breaks and that the wires are correctly seated. It receives measurement results from the [UniversalCableTesterBoard](https://github.com/Tamas-Biro1/UniversalCableTesterBoard) via a serial interface and then compares these results with an XML schema file for the specific cable. If an exact match is found, the cable is considered OK. If there is a faulty connection, the software indicates which pin has no connection to the other connector but should, or if there is a connection where there shouldn't be.
 
+<p align="center">
+  <img src="img/universalcableanalyzer-main.png" alt="Universal Cable Analyzer" width="320px">
+</p>
 
 # Example
 Here is an example of a PCIe 8 Pin Female to PCIe 8 (6+2) Pin Male (motherboard to graphics card) cable:
